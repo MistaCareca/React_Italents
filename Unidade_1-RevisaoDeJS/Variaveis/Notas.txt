@@ -1,0 +1,10 @@
+VAR:
+    Tem escopo global e em funçoes, porem nao tem escopo em bloco. Var pode ser redeclarada e Reatribuida
+    isso faz com que ela nao seja muito confiavel ja que pode ser redeclarada com mesmo nome! deixando 
+    propicio para futuros erros no codigo... 
+LET:
+    Tem escopo de funçao e em bloco porem nao tem escopo global. Let nao pode ser redeclarada como o var isso
+    faz com que ela seja mais confiavel no seu codigo e tem a capacidade de ser reatribuida
+CONST:
+    Nao tem escopo global porem tem escopo de funçao e bloco porem sem a capacidade de ser redeclarada e reatribuida
+    ja que é considerada como uma "CONSTATE" 
