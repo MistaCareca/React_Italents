@@ -1,0 +1,40 @@
+Objetos: sao um tipo de dado que pode armazenar varias propriedades e valores. essas prodpruiedades 
+sao definidas como pares chave:valor, porem ser comparados a objetos da vida real/
+
+estrutura:
+
+Let pessoa = { // nome do Objeto
+    firstName: "John", //a junçao de chave e valor representa uma propriedade
+    lasName: "Doe", // lastName representa uma Key
+    age: 30 // <- o 30 representa um valor
+}
+
+Classes: sao uma maneira de definir um tipoe de objeto com prodpriedades e metodos em JS
+
+estrutura:
+
+usamos a palavra reservada Class e damos um nome para essa Classe porem para poder manipular de forma correta
+devemos usar o construtor que é usadao para definir os valores da prodpriedade quando um novo objeto da classe for criado
+
+
+Class Pessoa {
+    contrutor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+Heranças em Classes
+Usamos a paralavra extends em seguida pelo nome da classe que queremos herdar exemplo
+EX: Aluno extends Pessoa
+
+a class herdeira tem acesso as prodpriedades e metodos da classe pai
+assim Aluno tera as caracteristicas de pessoa como nome e idade
+em outros termos temos o seguinte Student para quem herda e Person para pai quem é herdado
+
+Class Aluno extends Pessoa {
+    construtor (nome, idade, materia) {
+        super(nome, iadade); // inicializa as Heranças
+        this.materia = materia; // caracteristica exclusiva de Aluno
+    }
+}
