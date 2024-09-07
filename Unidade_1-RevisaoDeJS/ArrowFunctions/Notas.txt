@@ -1,0 +1,7 @@
+Em geral Arrow-Funtions permitem que possamos encrever uma sintaxe 
+mais curta quanto comparada a uma expressao de funaçao comum.
+
+sao representadas por "() => {}"
+
+funcionando de seguinte modo
+(parametros da funaçao) => {o que sera feito na funçao}
