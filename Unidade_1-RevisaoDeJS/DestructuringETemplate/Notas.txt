@@ -1,0 +1,23 @@
+Destruturaçao de daods: é uma maneira de extrair valores de arraus e bojetos em variaveis separadas. 
+isso pode ajudar a simplificar o codigo, tornalo mais legive e economizar tempo.
+
+exemplo de ultilizaçao longa:
+
+const arr = [1, 2, 3];
+const a = arr[0];
+const b = arr[1];
+const c = arr[2];
+
+//saidas
+
+segundo modo ultilizaçao curta;
+const arr = [1, 2, 3];
+const [a, b, c] = arr;
+
+//saidas
+
+
+Template Literals: os literails teambem conhecidos como Template Strings sao umr ecuros do JS que permite crair
+strings como expressoes incorporadas e strings de varias linhas com mais facilidade
+
+eles sao delimitados por acentos de crase em vez das aspas simples e duplas
