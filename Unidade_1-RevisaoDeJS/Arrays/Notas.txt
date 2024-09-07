@@ -1,0 +1,28 @@
+Arrays: sao uma estrutura de adados em JS que permite 
+armazenar e acessar varios valores em uma unica variavel
+
+podemos ter Arrays multidimensionauis que podem ser obtidos tendo arraus como elemntoe de outros arrays
+
+estrutura
+
+let nimeros = [1, 2, 3, 4, 5];
+let nomes = ['Zé','lé lé','da sivla'] // pode receber varios tipos de dados
+
+let matriz = [ // pode receber os proprios arrays virando uma matriz
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+metodos de Arrays
+esses metodos realizam operaçaoes para facilitar a manipulaçao desses dados como
+push, pop, unshift, shift, map, filter, reduce e etc...
+
+
+Push - Adicionamos um valor ao final do array
+
+Pop - remove um valor do final do array
+
+Unshift - adiciona um valor no inicio do array
+
+Shift - remove um valor do inicio do array
