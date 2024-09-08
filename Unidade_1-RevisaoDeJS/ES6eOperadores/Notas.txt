@@ -1,0 +1,33 @@
+Es6: intruduzem uma maneira nativa de organizar e genrenciar o codigo de maneira modular
+permitindo importar e exportar modulos em JS
+
+Ex:
+arquivo1.js:
+exports function helloWorld(){
+    console.log('hello, World!');
+}
+
+arquivo2.js:
+import{ helloWorld } from './arquivo1.js';
+
+helloWorld();
+
+ternario: O operador ternario é uma forma condicional de compactar e escrever codigos em JS.
+Ele permite que voce avalie uma expressoa e, com base nessa avewaliaçao, retorne um valor ou outro.
+O ternario é escrito como uma expressao com tres partes separadas por dois pontos: a condiçao, o valor de retorno
+caso a codngo seja verdadeira e o valor de retorno caso a condiçao seja false.
+
+Ex:
+condiçao ? valor_se_verdadeiro : valor_se_falso;
+(muito bom para subistituir if e else)
+
+
+Spread Operator: O spread em JS é um operador que permite "espalhar" um objeto em outro. 
+Ele é representado por tres pontos cosnecutivos(...), e pode ser usado em varios contextos.
+
+Ex:
+const objetoOriginal = { nome: "ana", idade: 14 };
+const novoObjeto = { ...objetoOriginal };
+console.log(novoObjeto); // saida esperada { nome: "ana", idade: 14}
+
+ele meio que faz uma copia de dados de objeto para objeto
