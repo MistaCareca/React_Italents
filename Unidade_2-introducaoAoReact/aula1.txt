@@ -1,0 +1,21 @@
+O que é react?
+- Uma biblioteca de JS para criar interfaces de usuarios
+- Cirado em 2011 pelo facebook lancçado em 2013 como ferramenta JS de codigo aberto.
+- Nasceu da necessidade de craiaçao de um codigo escalavel
+
+
+Vantagens
+- Reutulizaçao de componetes
+- Eficiencia de autalizaçao
+- Vintual DOM
+- Comunidade ativa
+- Suporte a aplicativos moveis
+
+    - SPA -> Single Page Application
+        Permite que voce altera a pagina
+        sem necessidade de atualizar a pagina
+        trabalha em base de tamplates
+
+    - componetização
+        divisao de funcionalidade em componetes
+        independentes para reutulizaçao
