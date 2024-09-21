@@ -19,3 +19,8 @@ Vantagens
     - componetização
         divisao de funcionalidade em componetes
         independentes para reutulizaçao
+
+jsx - Java-Script + XML
+    estrutura estremamente similar a HTML
+    combina bem com react pois permita facil renderizaçao
+    
