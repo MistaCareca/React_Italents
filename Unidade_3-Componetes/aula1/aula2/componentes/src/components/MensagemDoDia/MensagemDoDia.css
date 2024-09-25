@@ -1,0 +1,11 @@
+.mensagem{
+    width: 40%;
+    border: 1px solid #3b3939;
+    padding: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+.mensagem h3{
+    margin-right: 5px;
+}

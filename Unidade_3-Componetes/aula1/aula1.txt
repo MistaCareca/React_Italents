@@ -1,0 +1,11 @@
+Componentes
+componentes ssao blocos de logica, visualizaçao e 
+estilizaçao que fuicionam de forma indenpendentes e reutilizaveis
+
+-analise da imagem da aula-
+TodoApp - componete pai ou root. ele contem dois componetes filhos diretos
+header - exibe o cabeçalho
+todos - contem a logica do aplicativo. ele inclui dos componetes filhos diretos (parte logica)
+input - recebe dados
+todosList - organiza toda as tarefas
+todoItem - renderiza as tarefas individuais

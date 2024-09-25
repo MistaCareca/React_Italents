@@ -1,0 +1,15 @@
+.button-form{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(62, 62, 212);
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: 1px solid rgb(62, 62, 212);
+    transition: .4s all;
+}
+
+.button-form:hover{
+    transform: scale(1.1);
+}
